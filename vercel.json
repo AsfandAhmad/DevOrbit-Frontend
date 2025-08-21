@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://devorbit-backend-production.up.railway.app/" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
